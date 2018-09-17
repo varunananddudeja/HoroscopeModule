@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DE4288F2D0798B78B0FF1E8 /* Pods_HoroscopeModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E51DD61FA1F3453241FAD2B /* Pods_HoroscopeModule.framework */; };
+		B51FC3AC214F32FE007330A0 /* HoroscopeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51FC3AB214F32FE007330A0 /* HoroscopeButton.swift */; };
+		B51FC3AE214F3352007330A0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51FC3AD214F3352007330A0 /* Extensions.swift */; };
+		B5C05EB2214EDE6E00691431 /* SunsignCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C05EB0214EDE6E00691431 /* SunsignCollectionCell.swift */; };
+		B5C05EB3214EDE6E00691431 /* SunsignCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5C05EB1214EDE6E00691431 /* SunsignCollectionCell.xib */; };
+		B5C05EB5214EE16600691431 /* SelectHoroscopePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C05EB4214EE16600691431 /* SelectHoroscopePresenter.swift */; };
+		B5DCDE8A214D91650039E35B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDE89214D91650039E35B /* AppDelegate.swift */; };
+		B5DCDE91214D91730039E35B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5DCDE90214D91730039E35B /* Assets.xcassets */; };
+		B5DCDE94214D91730039E35B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DCDE92214D91730039E35B /* LaunchScreen.storyboard */; };
+		B5DCDE9C214D91ED0039E35B /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDE9B214D91ED0039E35B /* BaseVC.swift */; };
+		B5DCDE9F214D92060039E35B /* HoroscopeContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDE9D214D92060039E35B /* HoroscopeContainerVC.swift */; };
+		B5DCDEA0214D92060039E35B /* HoroscopeContainerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DCDE9E214D92060039E35B /* HoroscopeContainerVC.xib */; };
+		B5DCDEA3214D95AF0039E35B /* HoroscopeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDEA1214D95AF0039E35B /* HoroscopeVC.swift */; };
+		B5DCDEA4214D95AF0039E35B /* HoroscopeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DCDEA2214D95AF0039E35B /* HoroscopeVC.xib */; };
+		B5DCDEA7214D95C00039E35B /* SelectHoroscopeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDEA5214D95C00039E35B /* SelectHoroscopeVC.swift */; };
+		B5DCDEA8214D95C00039E35B /* SelectHoroscopeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DCDEA6214D95C00039E35B /* SelectHoroscopeVC.xib */; };
+		B5DCDEAB214DA2540039E35B /* TalkToExpertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDEA9214DA2540039E35B /* TalkToExpertCell.swift */; };
+		B5DCDEAC214DA2540039E35B /* TalkToExpertCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DCDEAA214DA2540039E35B /* TalkToExpertCell.xib */; };
+		B5DCDEAE214DA42F0039E35B /* CorneredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDEAD214DA42F0039E35B /* CorneredView.swift */; };
+		B5DCDEB5214DA6A50039E35B /* HoroscopeTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDEB3214DA6A50039E35B /* HoroscopeTitleCell.swift */; };
+		B5DCDEB6214DA6A50039E35B /* HoroscopeTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DCDEB4214DA6A50039E35B /* HoroscopeTitleCell.xib */; };
+		B5DCDEB8214DA73E0039E35B /* BaseLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDEB7214DA73E0039E35B /* BaseLayoutView.swift */; };
+		B5DCDEBB214DAC500039E35B /* HoroscopeSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDEB9214DAC500039E35B /* HoroscopeSectionCell.swift */; };
+		B5DCDEBC214DAC500039E35B /* HoroscopeSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DCDEBA214DAC500039E35B /* HoroscopeSectionCell.xib */; };
+		B5DCDEBF214DACE30039E35B /* TableViewCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDEBD214DACE30039E35B /* TableViewCollectionCell.swift */; };
+		B5DCDEC0214DACE30039E35B /* TableViewCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DCDEBE214DACE30039E35B /* TableViewCollectionCell.xib */; };
+		B5DCDEC7214DB0850039E35B /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDEC3214DB0840039E35B /* ConnectionManager.swift */; };
+		B5DCDEC8214DB0850039E35B /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDEC4214DB0840039E35B /* JSONParser.swift */; };
+		B5DCDED5214DB50E0039E35B /* HoroscopeGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDED4214DB50E0039E35B /* HoroscopeGateway.swift */; };
+		B5DCDEF5214DB73E0039E35B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDEF4214DB73E0039E35B /* Constants.swift */; };
+		B5DCDEF7214DBC7F0039E35B /* FilterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDEF6214DBC7F0039E35B /* FilterResponse.swift */; };
+		B5DCDEF9214DBCCE0039E35B /* BaseGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDEF8214DBCCE0039E35B /* BaseGateway.swift */; };
+		B5DCDEFB214DBD5B0039E35B /* HoroscopeModuleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDEFA214DBD5B0039E35B /* HoroscopeModuleResponse.swift */; };
+		B5DCDF04214DCB7E0039E35B /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDEFD214DCB7E0039E35B /* Grid.swift */; };
+		B5DCDF05214DCB7E0039E35B /* HoroscopeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDEFE214DCB7E0039E35B /* HoroscopeResponse.swift */; };
+		B5DCDF06214DCB7E0039E35B /* MonthlyHoroscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDEFF214DCB7E0039E35B /* MonthlyHoroscope.swift */; };
+		B5DCDF07214DCB7E0039E35B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDF00214DCB7E0039E35B /* Result.swift */; };
+		B5DCDF08214DCB7E0039E35B /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDF01214DCB7E0039E35B /* Section.swift */; };
+		B5DCDF09214DCB7E0039E35B /* YearlyHoroscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDF02214DCB7E0039E35B /* YearlyHoroscope.swift */; };
+		B5DCDF0A214DCB7E0039E35B /* Zodiac.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDF03214DCB7E0039E35B /* Zodiac.swift */; };
+		B5DCDF0C214DCBF80039E35B /* DailyHoroscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDF0B214DCBF80039E35B /* DailyHoroscope.swift */; };
+		B5DCDF10214DD0820039E35B /* HoroscopeContainerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDF0F214DD0820039E35B /* HoroscopeContainerPresenter.swift */; };
+		B5DCDF12214DDCD90039E35B /* HoroscopePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDF11214DDCD80039E35B /* HoroscopePresenter.swift */; };
+		B5DCDF15214DEF610039E35B /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DCDF13214DEF610039E35B /* GridCell.swift */; };
+		B5DCDF16214DEF610039E35B /* GridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DCDF14214DEF610039E35B /* GridCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		021552393E78722A615E9CC3 /* Pods-HoroscopeModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoroscopeModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-HoroscopeModule/Pods-HoroscopeModule.release.xcconfig"; sourceTree = "<group>"; };
+		0E51DD61FA1F3453241FAD2B /* Pods_HoroscopeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoroscopeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		350279A2701814780FAD142F /* Pods-HoroscopeModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoroscopeModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HoroscopeModule/Pods-HoroscopeModule.debug.xcconfig"; sourceTree = "<group>"; };
+		B51FC3AB214F32FE007330A0 /* HoroscopeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeButton.swift; sourceTree = "<group>"; };
+		B51FC3AD214F3352007330A0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B5C05EB0214EDE6E00691431 /* SunsignCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunsignCollectionCell.swift; sourceTree = "<group>"; };
+		B5C05EB1214EDE6E00691431 /* SunsignCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SunsignCollectionCell.xib; sourceTree = "<group>"; };
+		B5C05EB4214EE16600691431 /* SelectHoroscopePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectHoroscopePresenter.swift; sourceTree = "<group>"; };
+		B5DCDE86214D91650039E35B /* HoroscopeModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoroscopeModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DCDE89214D91650039E35B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5DCDE90214D91730039E35B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5DCDE93214D91730039E35B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5DCDE95214D91730039E35B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5DCDE9B214D91ED0039E35B /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		B5DCDE9D214D92060039E35B /* HoroscopeContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeContainerVC.swift; sourceTree = "<group>"; };
+		B5DCDE9E214D92060039E35B /* HoroscopeContainerVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HoroscopeContainerVC.xib; sourceTree = "<group>"; };
+		B5DCDEA1214D95AF0039E35B /* HoroscopeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeVC.swift; sourceTree = "<group>"; };
+		B5DCDEA2214D95AF0039E35B /* HoroscopeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HoroscopeVC.xib; sourceTree = "<group>"; };
+		B5DCDEA5214D95C00039E35B /* SelectHoroscopeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectHoroscopeVC.swift; sourceTree = "<group>"; };
+		B5DCDEA6214D95C00039E35B /* SelectHoroscopeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectHoroscopeVC.xib; sourceTree = "<group>"; };
+		B5DCDEA9214DA2540039E35B /* TalkToExpertCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkToExpertCell.swift; sourceTree = "<group>"; };
+		B5DCDEAA214DA2540039E35B /* TalkToExpertCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TalkToExpertCell.xib; sourceTree = "<group>"; };
+		B5DCDEAD214DA42F0039E35B /* CorneredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorneredView.swift; sourceTree = "<group>"; };
+		B5DCDEB3214DA6A50039E35B /* HoroscopeTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeTitleCell.swift; sourceTree = "<group>"; };
+		B5DCDEB4214DA6A50039E35B /* HoroscopeTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HoroscopeTitleCell.xib; sourceTree = "<group>"; };
+		B5DCDEB7214DA73E0039E35B /* BaseLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLayoutView.swift; sourceTree = "<group>"; };
+		B5DCDEB9214DAC500039E35B /* HoroscopeSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeSectionCell.swift; sourceTree = "<group>"; };
+		B5DCDEBA214DAC500039E35B /* HoroscopeSectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HoroscopeSectionCell.xib; sourceTree = "<group>"; };
+		B5DCDEBD214DACE30039E35B /* TableViewCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCollectionCell.swift; sourceTree = "<group>"; };
+		B5DCDEBE214DACE30039E35B /* TableViewCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCollectionCell.xib; sourceTree = "<group>"; };
+		B5DCDEC3214DB0840039E35B /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		B5DCDEC4214DB0840039E35B /* JSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		B5DCDED4214DB50E0039E35B /* HoroscopeGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeGateway.swift; sourceTree = "<group>"; };
+		B5DCDEF4214DB73E0039E35B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B5DCDEF6214DBC7F0039E35B /* FilterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterResponse.swift; sourceTree = "<group>"; };
+		B5DCDEF8214DBCCE0039E35B /* BaseGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseGateway.swift; sourceTree = "<group>"; };
+		B5DCDEFA214DBD5B0039E35B /* HoroscopeModuleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeModuleResponse.swift; sourceTree = "<group>"; };
+		B5DCDEFD214DCB7E0039E35B /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		B5DCDEFE214DCB7E0039E35B /* HoroscopeResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoroscopeResponse.swift; sourceTree = "<group>"; };
+		B5DCDEFF214DCB7E0039E35B /* MonthlyHoroscope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthlyHoroscope.swift; sourceTree = "<group>"; };
+		B5DCDF00214DCB7E0039E35B /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		B5DCDF01214DCB7E0039E35B /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		B5DCDF02214DCB7E0039E35B /* YearlyHoroscope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YearlyHoroscope.swift; sourceTree = "<group>"; };
+		B5DCDF03214DCB7E0039E35B /* Zodiac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zodiac.swift; sourceTree = "<group>"; };
+		B5DCDF0B214DCBF80039E35B /* DailyHoroscope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyHoroscope.swift; sourceTree = "<group>"; };
+		B5DCDF0F214DD0820039E35B /* HoroscopeContainerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeContainerPresenter.swift; sourceTree = "<group>"; };
+		B5DCDF11214DDCD80039E35B /* HoroscopePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopePresenter.swift; sourceTree = "<group>"; };
+		B5DCDF13214DEF610039E35B /* GridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
+		B5DCDF14214DEF610039E35B /* GridCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5DCDE83214D91650039E35B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE4288F2D0798B78B0FF1E8 /* Pods_HoroscopeModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4627883F20E26C0591C07972 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				350279A2701814780FAD142F /* Pods-HoroscopeModule.debug.xcconfig */,
+				021552393E78722A615E9CC3 /* Pods-HoroscopeModule.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B51FC3AF214F33A0007330A0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B51FC3B1214F33C6007330A0 /* CollectionCells */,
+				B51FC3B0214F33BD007330A0 /* TableCells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B51FC3B0214F33BD007330A0 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				B5DCDEB3214DA6A50039E35B /* HoroscopeTitleCell.swift */,
+				B5DCDEB4214DA6A50039E35B /* HoroscopeTitleCell.xib */,
+				B5DCDEBD214DACE30039E35B /* TableViewCollectionCell.swift */,
+				B5DCDEBE214DACE30039E35B /* TableViewCollectionCell.xib */,
+				B5DCDEB9214DAC500039E35B /* HoroscopeSectionCell.swift */,
+				B5DCDEBA214DAC500039E35B /* HoroscopeSectionCell.xib */,
+				B5DCDEA9214DA2540039E35B /* TalkToExpertCell.swift */,
+				B5DCDEAA214DA2540039E35B /* TalkToExpertCell.xib */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		B51FC3B1214F33C6007330A0 /* CollectionCells */ = {
+			isa = PBXGroup;
+			children = (
+				B5DCDF13214DEF610039E35B /* GridCell.swift */,
+				B5DCDF14214DEF610039E35B /* GridCell.xib */,
+				B5C05EB0214EDE6E00691431 /* SunsignCollectionCell.swift */,
+				B5C05EB1214EDE6E00691431 /* SunsignCollectionCell.xib */,
+			);
+			path = CollectionCells;
+			sourceTree = "<group>";
+		};
+		B51FC3B2214F33F2007330A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B51FC3AB214F32FE007330A0 /* HoroscopeButton.swift */,
+				B5DCDEAD214DA42F0039E35B /* CorneredView.swift */,
+				B5DCDEB7214DA73E0039E35B /* BaseLayoutView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B51FC3B3214F3428007330A0 /* HoroscopeContainer */ = {
+			isa = PBXGroup;
+			children = (
+				B5DCDE9D214D92060039E35B /* HoroscopeContainerVC.swift */,
+				B5DCDF0F214DD0820039E35B /* HoroscopeContainerPresenter.swift */,
+				B5DCDE9E214D92060039E35B /* HoroscopeContainerVC.xib */,
+			);
+			path = HoroscopeContainer;
+			sourceTree = "<group>";
+		};
+		B51FC3B4214F344E007330A0 /* SelectHoroscope */ = {
+			isa = PBXGroup;
+			children = (
+				B5DCDEA5214D95C00039E35B /* SelectHoroscopeVC.swift */,
+				B5DCDEA6214D95C00039E35B /* SelectHoroscopeVC.xib */,
+				B5C05EB4214EE16600691431 /* SelectHoroscopePresenter.swift */,
+			);
+			path = SelectHoroscope;
+			sourceTree = "<group>";
+		};
+		B51FC3B5214F3465007330A0 /* SelectedHoroscope */ = {
+			isa = PBXGroup;
+			children = (
+				B5DCDEA1214D95AF0039E35B /* HoroscopeVC.swift */,
+				B5DCDF11214DDCD80039E35B /* HoroscopePresenter.swift */,
+				B5DCDEA2214D95AF0039E35B /* HoroscopeVC.xib */,
+			);
+			path = SelectedHoroscope;
+			sourceTree = "<group>";
+		};
+		B51FC3B6214F348B007330A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B51FC3AD214F3352007330A0 /* Extensions.swift */,
+				B5DCDEF4214DB73E0039E35B /* Constants.swift */,
+				B5DCDE9B214D91ED0039E35B /* BaseVC.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B5DCDE7D214D91650039E35B = {
+			isa = PBXGroup;
+			children = (
+				B5DCDE88214D91650039E35B /* HoroscopeModule */,
+				B5DCDE87214D91650039E35B /* Products */,
+				4627883F20E26C0591C07972 /* Pods */,
+				DC230DF6DFF07CCD8FEDD597 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5DCDE87214D91650039E35B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5DCDE86214D91650039E35B /* HoroscopeModule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5DCDE88214D91650039E35B /* HoroscopeModule */ = {
+			isa = PBXGroup;
+			children = (
+				B51FC3B6214F348B007330A0 /* Resources */,
+				B51FC3B2214F33F2007330A0 /* Views */,
+				B51FC3AF214F33A0007330A0 /* Cells */,
+				B5DCDEC1214DB0840039E35B /* Data */,
+				B51FC3B5214F3465007330A0 /* SelectedHoroscope */,
+				B51FC3B4214F344E007330A0 /* SelectHoroscope */,
+				B51FC3B3214F3428007330A0 /* HoroscopeContainer */,
+				B5DCDE89214D91650039E35B /* AppDelegate.swift */,
+				B5DCDE90214D91730039E35B /* Assets.xcassets */,
+				B5DCDE92214D91730039E35B /* LaunchScreen.storyboard */,
+				B5DCDE95214D91730039E35B /* Info.plist */,
+			);
+			path = HoroscopeModule;
+			sourceTree = "<group>";
+		};
+		B5DCDEC1214DB0840039E35B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B5DCDED3214DB5010039E35B /* HoroscopeGateway */,
+				B5DCDEC2214DB0840039E35B /* Common */,
+				B5DCDEC5214DB0840039E35B /* Entities */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B5DCDEC2214DB0840039E35B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B5DCDEC3214DB0840039E35B /* ConnectionManager.swift */,
+				B5DCDEC4214DB0840039E35B /* JSONParser.swift */,
+				B5DCDEF6214DBC7F0039E35B /* FilterResponse.swift */,
+				B5DCDEF8214DBCCE0039E35B /* BaseGateway.swift */,
+				B5DCDEFA214DBD5B0039E35B /* HoroscopeModuleResponse.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B5DCDEC5214DB0840039E35B /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B5DCDEFC214DCB7E0039E35B /* HoroscopeResponse */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		B5DCDED3214DB5010039E35B /* HoroscopeGateway */ = {
+			isa = PBXGroup;
+			children = (
+				B5DCDED4214DB50E0039E35B /* HoroscopeGateway.swift */,
+			);
+			path = HoroscopeGateway;
+			sourceTree = "<group>";
+		};
+		B5DCDEFC214DCB7E0039E35B /* HoroscopeResponse */ = {
+			isa = PBXGroup;
+			children = (
+				B5DCDEFD214DCB7E0039E35B /* Grid.swift */,
+				B5DCDEFE214DCB7E0039E35B /* HoroscopeResponse.swift */,
+				B5DCDEFF214DCB7E0039E35B /* MonthlyHoroscope.swift */,
+				B5DCDF00214DCB7E0039E35B /* Result.swift */,
+				B5DCDF01214DCB7E0039E35B /* Section.swift */,
+				B5DCDF02214DCB7E0039E35B /* YearlyHoroscope.swift */,
+				B5DCDF03214DCB7E0039E35B /* Zodiac.swift */,
+				B5DCDF0B214DCBF80039E35B /* DailyHoroscope.swift */,
+			);
+			path = HoroscopeResponse;
+			sourceTree = "<group>";
+		};
+		DC230DF6DFF07CCD8FEDD597 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E51DD61FA1F3453241FAD2B /* Pods_HoroscopeModule.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5DCDE85214D91650039E35B /* HoroscopeModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5DCDE98214D91730039E35B /* Build configuration list for PBXNativeTarget "HoroscopeModule" */;
+			buildPhases = (
+				0C26AA3885E457046B3E83E8 /* [CP] Check Pods Manifest.lock */,
+				B5DCDE82214D91650039E35B /* Sources */,
+				B5DCDE83214D91650039E35B /* Frameworks */,
+				B5DCDE84214D91650039E35B /* Resources */,
+				7C54F9EA2EBEF353F2B1A90B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoroscopeModule;
+			productName = HoroscopeModule;
+			productReference = B5DCDE86214D91650039E35B /* HoroscopeModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5DCDE7E214D91650039E35B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Varun Dudeja";
+				TargetAttributes = {
+					B5DCDE85214D91650039E35B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B5DCDE81214D91650039E35B /* Build configuration list for PBXProject "HoroscopeModule" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5DCDE7D214D91650039E35B;
+			productRefGroup = B5DCDE87214D91650039E35B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5DCDE85214D91650039E35B /* HoroscopeModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5DCDE84214D91650039E35B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DCDEBC214DAC500039E35B /* HoroscopeSectionCell.xib in Resources */,
+				B5DCDF16214DEF610039E35B /* GridCell.xib in Resources */,
+				B5DCDEC0214DACE30039E35B /* TableViewCollectionCell.xib in Resources */,
+				B5DCDEB6214DA6A50039E35B /* HoroscopeTitleCell.xib in Resources */,
+				B5DCDEA0214D92060039E35B /* HoroscopeContainerVC.xib in Resources */,
+				B5DCDE94214D91730039E35B /* LaunchScreen.storyboard in Resources */,
+				B5C05EB3214EDE6E00691431 /* SunsignCollectionCell.xib in Resources */,
+				B5DCDE91214D91730039E35B /* Assets.xcassets in Resources */,
+				B5DCDEA4214D95AF0039E35B /* HoroscopeVC.xib in Resources */,
+				B5DCDEAC214DA2540039E35B /* TalkToExpertCell.xib in Resources */,
+				B5DCDEA8214D95C00039E35B /* SelectHoroscopeVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C26AA3885E457046B3E83E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HoroscopeModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C54F9EA2EBEF353F2B1A90B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HoroscopeModule/Pods-HoroscopeModule-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoroscopeModule/Pods-HoroscopeModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5DCDE82214D91650039E35B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DCDF06214DCB7E0039E35B /* MonthlyHoroscope.swift in Sources */,
+				B5DCDF04214DCB7E0039E35B /* Grid.swift in Sources */,
+				B5DCDEAB214DA2540039E35B /* TalkToExpertCell.swift in Sources */,
+				B5C05EB5214EE16600691431 /* SelectHoroscopePresenter.swift in Sources */,
+				B5DCDEF5214DB73E0039E35B /* Constants.swift in Sources */,
+				B5DCDF05214DCB7E0039E35B /* HoroscopeResponse.swift in Sources */,
+				B51FC3AC214F32FE007330A0 /* HoroscopeButton.swift in Sources */,
+				B5DCDF10214DD0820039E35B /* HoroscopeContainerPresenter.swift in Sources */,
+				B5DCDEC7214DB0850039E35B /* ConnectionManager.swift in Sources */,
+				B5DCDE9F214D92060039E35B /* HoroscopeContainerVC.swift in Sources */,
+				B5DCDEBB214DAC500039E35B /* HoroscopeSectionCell.swift in Sources */,
+				B5DCDF09214DCB7E0039E35B /* YearlyHoroscope.swift in Sources */,
+				B5DCDEC8214DB0850039E35B /* JSONParser.swift in Sources */,
+				B5DCDEB8214DA73E0039E35B /* BaseLayoutView.swift in Sources */,
+				B5DCDF07214DCB7E0039E35B /* Result.swift in Sources */,
+				B5DCDF12214DDCD90039E35B /* HoroscopePresenter.swift in Sources */,
+				B5DCDEFB214DBD5B0039E35B /* HoroscopeModuleResponse.swift in Sources */,
+				B5DCDEAE214DA42F0039E35B /* CorneredView.swift in Sources */,
+				B5DCDE8A214D91650039E35B /* AppDelegate.swift in Sources */,
+				B5DCDEF7214DBC7F0039E35B /* FilterResponse.swift in Sources */,
+				B5DCDF0C214DCBF80039E35B /* DailyHoroscope.swift in Sources */,
+				B5DCDF08214DCB7E0039E35B /* Section.swift in Sources */,
+				B5DCDE9C214D91ED0039E35B /* BaseVC.swift in Sources */,
+				B5DCDEBF214DACE30039E35B /* TableViewCollectionCell.swift in Sources */,
+				B5DCDEF9214DBCCE0039E35B /* BaseGateway.swift in Sources */,
+				B5DCDF0A214DCB7E0039E35B /* Zodiac.swift in Sources */,
+				B5DCDED5214DB50E0039E35B /* HoroscopeGateway.swift in Sources */,
+				B5C05EB2214EDE6E00691431 /* SunsignCollectionCell.swift in Sources */,
+				B5DCDEA7214D95C00039E35B /* SelectHoroscopeVC.swift in Sources */,
+				B5DCDF15214DEF610039E35B /* GridCell.swift in Sources */,
+				B51FC3AE214F3352007330A0 /* Extensions.swift in Sources */,
+				B5DCDEA3214D95AF0039E35B /* HoroscopeVC.swift in Sources */,
+				B5DCDEB5214DA6A50039E35B /* HoroscopeTitleCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5DCDE92214D91730039E35B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5DCDE93214D91730039E35B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5DCDE96214D91730039E35B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5DCDE97214D91730039E35B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5DCDE99214D91730039E35B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 350279A2701814780FAD142F /* Pods-HoroscopeModule.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S62DA4YQ49;
+				INFOPLIST_FILE = HoroscopeModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.varun.HoroscopeModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5DCDE9A214D91730039E35B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 021552393E78722A615E9CC3 /* Pods-HoroscopeModule.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S62DA4YQ49;
+				INFOPLIST_FILE = HoroscopeModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.varun.HoroscopeModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5DCDE81214D91650039E35B /* Build configuration list for PBXProject "HoroscopeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DCDE96214D91730039E35B /* Debug */,
+				B5DCDE97214D91730039E35B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5DCDE98214D91730039E35B /* Build configuration list for PBXNativeTarget "HoroscopeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DCDE99214D91730039E35B /* Debug */,
+				B5DCDE9A214D91730039E35B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5DCDE7E214D91650039E35B /* Project object */;
+}
